@@ -45,9 +45,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1170px; /*Без фиксированной ширины margin left и right не работают*/
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1170px; 
+    margin: 0 auto;
 }
 .nav-header a {
     text-decoration: none;
@@ -97,7 +96,8 @@
     margin-top: 0;
 }
 .picture-block {
-    width: 381px;
+    min-width: 381px;
+    height: 298px;
 }
 .info-block {
     margin-left: 30px;
@@ -686,7 +686,7 @@
     .main {
         display: flex;
         flex-wrap: nowrap;
-        width: 90%;
+        width: 1170px;
         margin-right: auto;
         margin-left: auto;
         padding-top: 64px;
@@ -703,7 +703,7 @@
         padding-bottom: 18px;
     }
     .social-copyrights {
-        width: 90%;
+        width: 1170px;
     }
     .footer-social {
         width: 100%;
