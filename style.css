@@ -685,7 +685,8 @@
     .main {
         display: flex;
         flex-wrap: nowrap;
-        width: 1170px;
+        max-width: 1200px; 
+        align-items: center;
         width: 80%;
         margin-right: auto;
         margin-left: auto;
