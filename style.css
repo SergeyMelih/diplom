@@ -77,7 +77,6 @@
     display: flex;
     flex-wrap: nowrap;
     max-width: 1200px;
-    width: 80%;
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
@@ -687,6 +686,7 @@
         display: flex;
         flex-wrap: nowrap;
         width: 1170px;
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
         padding-top: 64px;
