@@ -686,7 +686,7 @@
         display: flex;
         flex-wrap: nowrap;
         max-width: 1200px; 
-        align-items: center;
+        
         width: 80%;
         margin-right: auto;
         margin-left: auto;
@@ -704,7 +704,7 @@
         padding-bottom: 18px;
     }
     .social-copyrights {
-        width: 1170px;
+        max-width: 100%;
     }
     .footer-social {
         width: 100%;
@@ -734,7 +734,7 @@
         display: none;
     }
     .picture {
-        width: 100%;
+        max-width: 100%;
     }
     .picture-block {
         width: 100%;
@@ -798,7 +798,7 @@
         width: 100%;
     }
     .picture {
-        width: 100%;
+        max-width: 100%;
     }
     .picture-block {
         width: 100%;
