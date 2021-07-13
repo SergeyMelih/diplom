@@ -316,6 +316,10 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.copyrights {
+    color: #999999;
+    text-decoration: none;
+}
 .footer-social {
     padding-bottom: 25px;
     background-color: #f4f7f6;
